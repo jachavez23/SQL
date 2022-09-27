@@ -1,0 +1,20 @@
+CREATE TABLE clothing (id INTEGER PRIMARY KEY, name TEXT, color TEXT, size TEXT, price INTEGER);
+
+INSERT INTO clothing VALUES (1, "v neck shirt", "white", "L", 9.99);
+INSERT INTO clothing VALUES (2, "long sleeve shirt", "black", "L", 9.99);
+INSERT INTO clothing VALUES (3, "turtle neck", "orange", "M", 29.99);
+INSERT INTO clothing VALUES (4, "muscle tee", "white", "S", 7.99);
+INSERT INTO clothing VALUES (5, "socks", "black", "ANY", 4.99);
+INSERT INTO clothing VALUES (6, "watch", "silver", "ANY", 299.99);
+INSERT INTO clothing VALUES (7, "shorts", "black", "L", 14.99);
+INSERT INTO clothing VALUES (8, "jeans", "blue", "S", 29.99);
+INSERT INTO clothing VALUES (9, "long sleeve sweater", "grey", "XL", 24.99);
+INSERT INTO clothing VALUES (10, "short sleeve sweater", "yellow", "S", 29.99);
+INSERT INTO clothing VALUES (11, "sweats", "black", "L", 9.99);
+INSERT INTO clothing VALUES (12, "ring", "gold", "ANY", 499.99);
+INSERT INTO clothing VALUES (13, "chain", "gold", "ANY", 399.99);
+INSERT INTO clothing VALUES (14, "breifs", "white", "L", 14.99);
+INSERT INTO clothing VALUES (15, "short sleeve tee", "black", "L", 9.99);
+SELECT * FROM clothing;
+
+SELECT * FROM clothing ORDER BY price asc;
